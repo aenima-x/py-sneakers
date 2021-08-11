@@ -3,6 +3,10 @@ py-sneakers
 
 Port to python of the [libnms](https://github.com/bartobri/libnms) C library
 
+To recreate the famous data decryption effect shown in the 1992 film Sneakers.
+
+![Alt Text](./demo.gif)
+
 Install
 -----
 ```
