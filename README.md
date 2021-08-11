@@ -1,7 +1,7 @@
 py-sneakers
 ======
 
-Port to python of this C library: [libnms](https://github.com/bartobri/libnms) 
+Port to python of the [libnms](https://github.com/bartobri/libnms) C library
 
 Install
 -----
@@ -16,7 +16,7 @@ Usage
 
 **As a command**
 ```
-echo "Text" |py-sneakers
+echo "Text" | py-sneakers
 ```
 
 **As a lib**
