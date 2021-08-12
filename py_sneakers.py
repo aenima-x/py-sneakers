@@ -15,6 +15,7 @@ class Sneakers:
     shuffle_each_frame = 36
     reveal_each_frame = 6
     magic_char = "\033[F"
+    escape_re = re.compile(r"\x1b[^m]*m")
 
     def __init__(self, text):
         self.encrypted = []
@@ -22,7 +23,6 @@ class Sneakers:
         self.initial_shuffle_iterations = 24
         self.stage = 0
         self.next_step = None
-        self.escape_re = re.compile(r"\x1b[^m]*m")
         self.text = self.escape_re.sub("", text)
 
     def get_random_char(self):
