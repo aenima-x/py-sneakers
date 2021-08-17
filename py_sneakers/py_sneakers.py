@@ -87,11 +87,3 @@ class Sneakers:
                 break
             self.render()
         self.render()
-
-
-def main():
-    Sneakers(sys.stdin.read()).decrypt()
-
-
-if __name__ == "__main__":
-    main()
