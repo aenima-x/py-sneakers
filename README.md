@@ -10,6 +10,10 @@ To recreate the famous data decryption effect shown in the 1992 film Sneakers.
 Install
 -----
 ```
+pip install py-sneakers
+```
+
+```
 git clone https://github.com/aenima-x/py-sneakers
 cd py-sneakers
 pip install .
